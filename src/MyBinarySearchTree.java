@@ -1,7 +1,7 @@
 
 
 class MyBinarySearchTree<K extends Comparable<K>> {
-    private MyBinaryNode<K> root;
+    MyBinaryNode<K> root;
 
     public void add(K key) {
         root = addRecursively(root, key);
